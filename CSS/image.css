@@ -1,0 +1,43 @@
+body {
+    background-color: black;}
+
+#principale {
+    width: 1200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: thin solid #123;
+    padding: 0 40px 30px 40px;}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+
+#menu ul{
+    color: red;
+    text-align: center;
+}
+
+#menu li{
+    text-decoration: none;
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+a:hover {
+    background-color: red;
+}
+
+a:link
+{
+    text-decoration:none;
+}
+
+#content {
+    margin-left: 60px;
+    margin-right: 25px;
+}

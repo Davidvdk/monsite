@@ -1,0 +1,547 @@
+body
+{
+    margin: auto;
+    padding: 10px 0 10px 0;
+    /* background-color: #313d4d; */
+    background-color: #313d4d;
+    overflow-x: hidden;
+}
+
+html 
+{
+    min-height: 100%;
+    font-family: 'Arial','Helvetica','Calibri','Lucida Grande','Bitstream Vera Sans','Arial', 'Verdana','Lucida','Helvetica','Sans-serif','Droid Sans';
+}
+
+
+
+.code
+{
+    border: 1px solid#7a173f;
+    background-color: #eee;
+    padding: 15px 15px;
+    font-family: "Courier New",serif;
+    font-size: 1.3em;
+    overflow: auto;
+}
+
+h1
+{
+    /*margin: 10px 0px 20px 0px;*/
+    line-height: 35px;
+    
+}
+
+
+
+.menu1
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    max-width: 1100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 0px;
+    background-color: white;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+}
+
+
+.articles {
+    position: relative;
+    padding: 0px 30px 0px 30px;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    line-height: 19px;
+    text-align: justify;
+    color: rgb(51, 51, 51);
+    border-color: #fff;
+    overflow: visible;
+    -moz-border-radius-topleft: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+#toc_container.toc_light_blue 
+{
+    background: #edf6ff;
+}
+
+#toc_container
+ {
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: auto;
+    display: table;
+    font-size: 95%;
+    margin: 30px 0px 30px 0px;
+}
+
+#toc_container p.toc_title 
+{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#toc_container a 
+{
+    text-decoration: none;
+    text-shadow: none;
+    line-height: 2.3em;
+}
+
+#toc_container li, #toc_container ul
+ {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+#toc_container p.toc_title+ul.toc_list 
+{
+    margin-top: 1em;
+}
+
+#toc_container ul ul {
+    margin-left: 1.5em;
+}
+
+
+.h2soustitre
+{
+    text-decoration: underline;
+    /*margin: 0px 0px -5px 0px;*/
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    line-height: 25px;
+}
+
+.h3bleu
+{
+    color: #0a36e1;
+}
+
+.post-info {
+    display: flex;
+    color: #AAAAAA;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 30px;
+    line-height: 0px;
+    font-size: 15px;
+    margin: -15px 0px 25px 0px;
+}
+
+#tuto
+{
+    color: #0a36e1;
+    /*color: #0f2681; */
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px
+}
+
+#tuto1
+{
+    color: #0f2681;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px
+}
+
+#infotest
+{
+    background-color: #343a40;
+    color: #0f2681; 
+    font-size: 20px;
+    text-align: center; 
+    margin: 0px -30px 0 -30px;
+    padding: 10px 0px 0px 20px; 
+}
+
+#exemple
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+figure
+{
+    margin: 0px;
+    padding: 0px 15px 10px 0px;
+}
+
+p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /*margin: 5px 0px 20px 0px;*/
+    /*margin: 5px 5px 20px 5px;*/
+    /*font-family: Arial;*/
+    /*margin: 1px;*/
+    /*font-size: 18px;*/
+}
+
+.post-image {
+    margin-bottom: 26px;
+    text-align: center;
+    vertical-align: top;
+    /*overflow: hidden;*/
+    /*position: relative;*/
+}
+
+z{
+    color: #1e3799;
+}
+
+.conteneur
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+img
+{
+    max-width:100%;
+    max-height:100%;
+}
+
+footer
+{
+    background-color: #424558;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    line-height: 19px;
+    color: rgb(51, 51, 51);
+    border-color: #fff;
+    overflow: visible;
+    -moz-border-radius-topleft: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+a 
+{
+    color: #40a3ca;
+    text-decoration: none;  
+}
+
+.atableau
+{
+    color: #40a3ca;
+    text-decoration: none;
+    text-align: center; 
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+.table
+{
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,.table td 
+{
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;    /* auront une bordure de 1px */
+}
+
+.table thead th 
+{
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table thead tr 
+{
+    text-align: center;
+    color: #0E9A00;
+    font-size: 1.6em;
+}
+
+.table tbody + tbody 
+{
+    border-top: 2px solid #dee2e6;
+}
+
+.table-dark 
+{                                                    /* couleur du tableau  */
+    color: #fff;
+    background-color: #343a40;
+    margin: 0px -30px -10px -30px;
+}
+
+.table-dark th,
+.table-dark td,                                                  /* couleur de la bordure  */
+.table-dark thead th 
+{
+    border-color: #454d55;
+}
+
+.table-striped.table-dark tbody tr:hover   /* selectionne la ligne en couleur */
+{                         
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.table-stripedsss       /* selectionne la ligne en couleur */
+{                         
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+
+
+.table-striped tbody tr:nth-of-type(odd)   /* change la couleur des lignes  */
+{                     
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+th 
+{
+    text-align: center;
+}
+
+/*  .table-dark.table-hover tbody tr:hover  */
+
+div.date 
+{
+    text-align: right;
+    color: #ffffff;
+}
+
+header                                   /* Couleur du menu  */
+{
+    background-color: #3a85a6;                 
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 1280px;*/
+    min-width: 400px;
+    max-width: 1100px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.inner-wrap 
+{
+    margin: 0 auto;
+    min-width: 400px;
+    max-width: 1100px;
+    padding: 0px 15px 0px;
+}
+
+/*.introduction {
+    background-color: black;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+}*/
+
+figure
+{
+    display:inline-block;
+    text-align:center;
+    vertical-align:top;
+}
+
+.zoom 
+{
+    width: 320px;
+    height: 240px;
+    margin: 80px;
+}
+
+.image 
+{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+image img                           /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+{
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+
+.image:hover img                    /* L'image est grossie de 25% */
+{
+    -webkit-transform:scale(2); /* Safari et Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* Internet Explorer 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);
+}
+
+.introduction 
+{
+    background-color: black;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.collapse:not(.show) 
+{
+  display: none;
+}
+
+.collapsing 
+{
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.btn-link 
+{
+  font-weight: 400;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.btn-link:hover 
+{
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.btn-link:focus, .btn-link.focus 
+{
+  text-decoration: underline;
+  box-shadow: none;
+}
+
+.btn-link:disabled, .btn-link.disabled 
+{
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.card-header 
+{
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header:first-child 
+{
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header + .list-group .list-group-item:first-child 
+{
+  border-top: 0;
+}
+
+.card-body 
+{
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.site 
+{
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+.go-top-btn {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border: 3px solid #333;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  z-index: 10000;
+}
+
+.go-top-btn img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+  
+
+
+  

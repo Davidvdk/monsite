@@ -1,0 +1,335 @@
+figure{
+    display:inline-block;
+}
+
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    background-color: darkgray;
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+#principale {
+    width: 1200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: thin solid #123;
+    padding: 0 40px 30px 40px;}
+
+
+
+nav{
+    width: 100%;                                /* permet de étendre le menu a toute la page */
+}
+
+nav > ul{
+    margin: 0;                                  /* marge en haut de la page */
+    padding: 0;                              /* hauteur du menu */
+}
+
+nav li{
+    list-style-type: none;
+
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;                         /* positionné les élements du menu */
+}
+
+nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.submenu{
+    display: none;
+}
+
+nav input[type=checkbox]{                       /* cache le menu responsive (mobile) */
+    display: none;
+}
+
+nav label{                                      /* cache le menu responsive (mobile) */
+    display: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a{                             /* regle hauteur et largeur des menu */
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+nav li:hover .submenu{                          /*  deroule le menu */
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;                         /* Taille police des sous menu */
+    color: #222538;
+    width: 270px;                            /* Largeur des sous menu */
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+.menu:hover{                            /* couleur des Menu */
+    border-top: 5px solid #424558;
+    background-color: rgba(60, 63, 65, 0.15);
+}
+.menu-html:hover{                            /* couleur des Menu */
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+.menu-css:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+.menu-php:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-mysql:hover{
+    border-top: 5px solid #b18bf1;
+    background-color: rgba(163, 101, 241, 0.15);
+}
+.menu-programme:hover{                          /* couleur haut du menu (marge) */
+    border-top: 5px solid #bbb;
+    background-color: rgba(220, 220, 220, 0.15);
+}
+.menu-formation:hover{                          /* couleur haut du menu */
+    border-top: 5px solid #5ebb05;
+    background-color: rgba(25, 200, 23, 0.15);
+}
+.menu-raspberrypi:hover{                          /* couleur haut du menu */
+    border-top: 5px solid #1028bb;
+    background-color: rgba(7, 103, 200, 0.15);
+}
+.menu-ebooks:hover{                             /* couleur haut du menu */
+    border-top: 5px solid #bb8544;
+    background-color: rgba(200, 162, 34, 0.15);
+}
+.menu-html .submenu{
+    background-color: rgb(230, 100, 40);        /* couleur du menu */
+}
+.menu-css .submenu{
+    background-color: rgb(000, 160, 240);       /* couleur du menu */
+}
+.menu-php .submenu{
+    background-color: rgb(250, 215, 100);       /* couleur du menu */
+}
+.menu-mysql .submenu{
+    background-color: rgb(157, 120, 200);       /* couleur du menu */
+}
+.menu-programme .submenu{
+    background-color: rgb(149, 165, 166);       /* couleur du menu */
+}
+.menu-formation .submenu{                       /* couleur du menu */
+    background-color: rgb(92, 185, 68);
+}
+.menu-raspberrypi .submenu{                       /* couleur du menu */
+    background-color: rgb(54, 94, 185);
+}
+.menu-ebooks .submenu{                       /* couleur du menu */
+    background-color: rgb(185, 139, 59);
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-html .submenu li:hover{
+    background-color: rgb(210, 77, 60);           /* couleur sous menu (selectionne souris)*/
+}
+.menu-css .submenu li:hover{
+    background-color: rgb(000, 115, 200);         /* couleur sous menu */
+}
+.menu-php .submenu li:hover{                      /* couleur sous menu */
+    background-color: rgb(200, 165, 75);
+}
+.menu-mysql .submenu li:hover{                    /* couleur sous menu */
+    background-color: rgb(134, 76, 200);
+}
+.menu-programme .submenu li:hover{                    /* couleur sous menu */
+    background-color: rgb(113, 125, 126);
+}
+.menu-formation .submenu li:hover{                    /* couleur sous menu */
+    background-color: rgb(30, 156, 21);
+}
+.menu-raspberrypi .submenu li:hover{                    /* couleur sous menu */
+    background-color: rgb(39, 76, 156);
+}
+.menu-ebooks .submenu li:hover{                    /* couleur sous menu */
+    background-color: rgb(156, 104, 22);
+}
+
+nav input[type=checkbox]:checked ~ ul{
+    display: block;
+}
+
+nav ul{
+    display: none;
+}
+nav ul li, nav ul li a{
+    width: 100%;
+    text-align: center;
+}
+nav ul li a, nav ul li:hover a{
+    padding: 10px 0;
+}
+nav li:hover .submenu{
+    display: block;
+    position: static;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.code
+{
+    border: 1px solid#7a173f;
+    background-color: #eee;
+    padding: 15px 15px;
+    font-family: "Courier New",serif;
+    font-size: 1.3em;
+    overflow: auto;
+}
+
+h3
+{
+    color: #1e3799;       /* couleur du texte */
+
+}
+
+
+h1
+{
+
+    min-width: 360px;
+    margin-top: 0;
+}
+
+p{
+
+    font-family: Arial;
+
+}
+
+
+.conteneur
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer{
+    background-color: #424558;
+    color: white;
+    padding: 0 0 10px 0;
+    text-align: right;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+
+.table {
+
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;    /* auront une bordure de 1px */
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table thead tr {
+    text-align: center;
+    color: #0E9A00;
+    font-size: 1.6em;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-dark {                                                    /* couleur du tableau  */
+    color: #fff;
+    background-color: #343a40;
+}
+
+.table-dark th,
+.table-dark td,                                                  /* couleur de la bordure  */
+.table-dark thead th {
+    border-color: #454d55;
+}
+
+.table-striped.table-dark tbody tr:hover {                         /* selectionne la ligne en couleur */
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+
+.table-striped tbody tr:nth-of-type(odd) {                     /* change la couleur des lignes  */
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/*  .table-dark.table-hover tbody tr:hover  */
+
+div.date {
+    text-align: right;
+    color: #ffffff;
+}
+
+article {
+    /*margin: 0 350px;*/
+    /*background-color: white;*/
+}
+
+header {
+    background-color: #424558;                  /* Couleur du menu  */
+    padding: 0 0 10px 0;
+    color: #FFF;
+
+}
+
+.introduction {
+    background-color: black;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,33 @@
+.panel {
+    padding: 8px 0 10px;
+    background-image: url(../img/bg.png);
+    background-color: #22262d;
+    border-bottom: 1px solid #3c3c3c1f;
+    font-size: 13px;
+    font-weight: 300;
+    color: #8998b0;
+    z-index: 0;
+}
+
+
+#connect {
+    display: none;
+    opacity: 0;
+    width: 360px;
+    position: fixed;
+    background: #f6f4f4;
+    top: 20px;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 99999;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.ct {
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 25px;
+}
